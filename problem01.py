@@ -1,4 +1,4 @@
-import linked_list
+from linked_list import first, rest, is_link, link
 
 def list_to_linked(x):
   """
@@ -9,7 +9,7 @@ def list_to_linked(x):
   >>> list_to_linked([4,5,7,9])
   [4,[5,[7,[9,'empty']]]]
   """
-  first(rest(list_to_link3))
+  first(rest(list_to_link))
   length=0
   while x!='empty':
     length+=1
