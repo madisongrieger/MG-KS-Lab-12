@@ -10,4 +10,7 @@ def maximum_value(x):
   >>> maximum_value (link(6,link,(7,link(8,link(9,'empty')))))
   9
   """
-  
+  value=0
+  for i in x:
+    if i>value:
+      value.append(i)
