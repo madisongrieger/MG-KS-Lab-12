@@ -1,4 +1,4 @@
-import linked_list
+from linked_list import first, rest, is_link, link
 
 def list_to_linked(x):
   """
