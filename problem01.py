@@ -11,6 +11,6 @@ def list_to_linked(x):
   """
   first(rest(list_to_link3))
   length=0
-  while x! ='empty':
+  while x!='empty':
     length+=1
   return length
