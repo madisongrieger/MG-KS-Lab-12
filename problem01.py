@@ -14,3 +14,4 @@ def list_to_linked(x):
   while x!='empty':
     length+=1
   return length
+list_to_linked([2,4,6,8])
