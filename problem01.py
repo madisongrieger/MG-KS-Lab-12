@@ -9,9 +9,9 @@ def list_to_linked(x):
   >>> list_to_linked([4,5,7,9])
   [4,[5,[7,[9,'empty']]]]
   """
-  link(x,
-  length=0
-  while x!='empty':
-    length+=1
-  return length
-list_to_linked([2,4,6,8])
+  result = 'empty'
+  i= len(x) -1
+  while i>=0:
+    result= link(x[i], result)
+    i-= 1
+  return result 
