@@ -10,5 +10,7 @@ takes in a linked list and returns a list with the same data order
 [3,5,7,9]
 """
 result=[]
-for i in x:
-  result.append
+while x != 'empty':
+  result.append(first(x))
+  x= rest(x)
+return result
