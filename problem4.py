@@ -10,8 +10,9 @@ def maximum_value(x):
   >>> maximum_value link(6,link,(7,link(8,link(9,'empty'))))
   9
   """
-  value= 
-  for i in first:
-    if i>value:
-      value=i
-  else rest?
+  highest_value= first(x)
+  while x != 'empty':
+    if first(x)> highest_value
+    highest_value = first(x)
+    x = rest(x)
+  return highest_value
