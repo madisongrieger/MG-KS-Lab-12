@@ -6,9 +6,9 @@ def merge(x,y):
   takes in two sorted linked lists and returns a new linked list that contains all elements in the two lists in sorted order
 
   >>> merge(link(1,link(2,link(3,link(4,'empty')))),link(5,link(6,'empty')))
-  link(1,link(2,link(3,link(4,link(5,link(6,'empty'))))))
+  [1, [2, [3, [4, [5, [6, 'empty']]]]]]
   >>> merge(link(3,link(6,link(7, link(8, 'empty')))), link(9,link(10,'empty')))
-  link(3,link(6,link(7,link(8,link(9,link(10,'empty'))))))
+  [3, [6, [7, [8, [9, [10, 'empty']]]]]]
   >>>merge (link(2,link(4,link(6,'empty'))),link(7,link(8,'empty')))
   [2, [4, [6, [7, [8,'empty']]]]]
   >>> merge(link(1, link(4, link(5, 'empty'))), link(2, link(4, link(6, 'empty')))) 
