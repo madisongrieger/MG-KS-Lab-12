@@ -9,6 +9,8 @@ def maximum_value(x):
   4
   >>> maximum_value (link(6, link(7, link(8, link(9,'empty')))))
   9
+  >>> maximum_value(link(2, link(4, link(6, link(8, 'empty')))))
+  8
   """
   highest_value = first(x)
   while x != 'empty':
