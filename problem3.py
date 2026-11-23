@@ -9,9 +9,13 @@ def rotate_by_n(x,n):
   link(2,link(3,link(4,link(1,'empty'))))
   >>> rotate_by_n(link(1,link(2,link(3,link(4,'empty')))),1)
   link(4,link(1,link(2,link(3,'empty'))))
+  >>> rotate_by_n('empty', 2)
+  'empty'
+  >>> rotate_by_n(link(1,link(2,link(3,'empty'))), 5) 
+  link(2,link(3,link(1,'empty')))
   '''
   if x == 'empty':
-    'empty'
+    return 'empty'
   i=[]
   while x != 'empty':
     i.append(first(x))
